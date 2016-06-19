@@ -1,0 +1,35 @@
+@import "constants";
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 60px;
+	padding-top: 65px;
+	font-family: GosmickSans, Comic Sans, Comic Sans MS, Arial;
+}
+
+a {
+	color: @brainsplosion-lightBrown;
+
+	&:hover, &:active {
+		color: @brainsplosion-brown;
+	}
+}
+
+@import "navbar";
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	border-top: 1px solid @brainsplosion-orange;
+	background: white;
+
+	.container {
+		text-align: center;
+	}
+}

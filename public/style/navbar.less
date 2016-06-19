@@ -1,0 +1,42 @@
+@import "constants";
+
+.navbar-brand {
+	padding: 5px 15px;
+
+	img {
+		height: 100%;
+	}
+}
+
+nav.navbar-default {
+	background: @brainsplosion-extraLightOrange;
+	border-color: @brainsplosion-lightOrange;
+
+	.navbar-toggle {
+		border-color: @brainsplosion-lightOrange;
+
+		&:hover, &:active {
+			background-color: @brainsplosion-lightOrange;
+		}
+		
+		.icon-bar {
+			background-color: @brainsplosion-mediumOrange;
+		}
+	}
+
+	.navbar-collapse {
+		border-color: @brainsplosion-lightOrange;
+
+		li > a {
+			color: @brainsplosion-brown;
+
+			&:hover {
+				color: @brainsplosion-orange;
+			}
+
+			i.fa {
+				padding-right: 5px;
+			}
+		}
+	}
+}

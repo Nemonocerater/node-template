@@ -1,0 +1,16 @@
+
+node_modules/
+
+# Generated Files
+log
+log-*-*-*
+
+public/style/**/*.css
+
+
+
+# Mac OS Files
+.DS_Store
+
+# Unix Files
+.bashrc
