@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node app.js 8080",
     "local": "open http://localhost:6933 && node app.js 6933",
+    "setup-centos7": "./_setup/setup-centos7.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nemonocerater",
